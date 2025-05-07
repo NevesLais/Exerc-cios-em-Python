@@ -9,12 +9,11 @@ c = -525
 delta = b**2 - 4*a*c
 
 
-raiz1 = (-b + math.sqrt(delta)) / (2 * a)
-raiz2 = (-b - math.sqrt(delta)) / (2 * a)
+x1 = ( -b + delta ** (1/2) / 2 * a
+x2 = ( -b - delta ** (1/2) / 2 * a
 
-
-print(f"As soluções são: {raiz1} e {raiz2}")
-
+print(x1)
+print (x2)
 
 idade = max(raiz1, raiz2)
 print(f"Sua idade é: {idade}")
